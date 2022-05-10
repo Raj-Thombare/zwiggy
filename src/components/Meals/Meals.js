@@ -2,12 +2,13 @@ import React from 'react'
 import AvailableMeals from './AvailableMeals'
 import MealsSummary from './MealsSummary'
 
-
-export default function Meals() {
+const Meals = () => {
   return (
     <section>
-        <MealsSummary/>
-        <AvailableMeals/>
+        <MealsSummary />
+        <AvailableMeals />
     </section>
   )
 }
+
+export default Meals;

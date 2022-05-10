@@ -3,7 +3,7 @@ import classes from "./Header.module.css"
 import mealsImage from "../../assets/meals.jpg"
 import HeaderCartButton from './HeaderCartButton'
 
-export default function Header(props) {
+const Header = () => {
   return (
     <Fragment>
         <header className={classes.header}>
@@ -16,3 +16,5 @@ export default function Header(props) {
     </Fragment>
   )
 }
+
+export default Header
