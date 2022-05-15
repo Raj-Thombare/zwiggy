@@ -11,8 +11,9 @@ const HeaderCartButton = ({onClick}) => {
     return curNumber + item.amount;
   }, 0)
 
+  const btnClasses = `${classes.button} ${classes.bump}`
   return (
-    <button className={classes.button} onClick={onClick}>
+    <button className={btnClasses} onClick={onClick}>
         <span className={classes.icon}>
             <CartIcon/>
         </span>
