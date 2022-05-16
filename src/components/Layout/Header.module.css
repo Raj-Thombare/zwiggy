@@ -33,3 +33,9 @@
     padding: 0 5%;
   }
 }
+
+@media screen and (max-width:360px) {
+  .header {
+    padding: 0 3%;
+  }
+}
